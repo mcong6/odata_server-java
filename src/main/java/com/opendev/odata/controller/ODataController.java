@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping(ODataController.URI)
 public class ODataController {
-    protected static final String URI = "/OData/V1.0";
+    protected static final String URI = "/OData";
     @Autowired
     CsdlEdmProvider edmProvider;
     @Autowired
